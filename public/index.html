@@ -12,6 +12,7 @@
     <title>Spotify</title>
     <link rel="stylesheet" href="../src/index.css">
     <link rel="shortcut icon" href="../images/icon.png" type="image/png">
+    <script src="./script.js" defer></script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -77,197 +78,15 @@
     <main class="content">
       <div class="music">
         <h2 class="music-head">Для тебя</h2>
-        <section class="tracks">  
-            <div class="track">
-              <div>
-                <img class="track-image" src="../images/road-img.png">
-              </div>
-              <div class="track-name">
-                В дорогу
-                <div class="track-author">
-                  Микс из новостей и музыки, подобранной специально для тебя.
-                </div>
-              </div>
-            </div>
-
-            <div class="track">
-              <div>
-                <img class="track-image" src="../images/Bloodborne.jpg">
-              </div>
-              <div class="track-name">
-                Chapter10 - The Paleblood Hunt
-                <div class="track-author">
-                  The Paleblood Hunt Audiobook
-                </div>
-              </div>
-            </div>
-
-        </section>
+        <section class="tracks" id="albums"></section>
         <h2 class="music-head">Недавно прослушано</h2>
-        <section class="tracks">
-          <div class="track">
-            <div>
-              <img class="track-image" src="../images/dora.jpg">
-            </div>
-            <div class="track-name">
-              Дора
-              <div class="track-author">
-                Исполнитель
-              </div>
-            </div>
-          </div>
-
-          <div class="track">
-            <div>
-              <img class="track-image" src="../images/pyro.jpg">
-            </div>
-            <div class="track-name">
-              pyrokinesis
-              <div class="track-author">
-                Виа долороса
-              </div>
-            </div>
-          </div>
-
-          <div class="track">
-            <div>
-              <img class="track-image" src="../images/maroon.jpg">
-            </div>
-            <div class="track-name">
-              Maroon 5
-              <div class="track-author">
-                Wake up call
-              </div>
-            </div>
-          </div>
-
-          <div class="track">
-            <div>
-              <img class="track-image" src="../images/cocoon.jpg">
-            </div>
-            <div class="track-name">
-              Cocoon
-              <div class="track-author">
-                The road
-              </div>
-            </div>
-          </div>
-
-        </section>
+        <section class="tracks" id="recentlyListen"></section>
         <h2 class="music-head">Твои лучшие миксы</h2>
-        <section class="tracks">
-          <div class="track">
-            <div>
-              <img class="track-image" src="../images/kyok.jpg">
-            </div>
-            <div class="track-name">
-              Куок: микс
-              <div class="track-author">
-                SODA LUV, Oxxxymiron, КлоуКома и не только
-              </div>
-            </div>
-          </div>
-
-          <div class="track">
-            <div>
-              <img class="track-image" src="../images/post-malone.jpg">
-            </div>
-            <div class="track-name">
-              Post Malone: микс
-              <div class="track-author">
-                Young Thug, Quavo, Tory Lanez и не только
-              </div>
-            </div>
-          </div>
-
-          <div class="track">
-            <div>
-              <img class="track-image" src="../images/billie-eilish.jpg">
-            </div>
-            <div class="track-name">
-              Billie Eilish: микс
-              <div class="track-author">
-                Khalid, girl in red, Conan Gray и не только
-              </div>
-            </div>
-          </div>
-
-          <div class="track">
-            <div>
-              <img class="track-image" src="../images/music-2000.jpg">
-            </div>
-            <div class="track-name">
-              Микс музыки 2000-х
-              <div class="track-author">
-                Three Days Grace, Skillet, 50 Cent и не только
-              </div>
-            </div>
-          </div>
-        </section>
+        <section class="tracks" id="best"></section>
         <h2 class="music-head">Всё сложно
           <p class = "little-font">Плейлисты, которые поддержат в трудный момент.</p>
         </h2>
-        <section class="tracks">
-          <div class="track">
-            <div>
-              <img class="track-image" src="../images/broken-heart.jpg">
-            </div>
-            <div class="track-name">
-              Broken Heart
-              <div class="track-author">
-                Nurse your emotional wounds with these heartbreak tracks.
-              </div>
-            </div>
-          </div>
-
-          <div class="track">
-            <div>
-              <img class="track-image" src="../images/Tender.jpg">
-            </div>
-            <div class="track-name">
-              Tender
-              <div class="track-author">
-                Raw, sentimental feels.
-              </div>
-            </div>
-          </div>
-
-          <div class="track">
-            <div>
-              <img class="track-image" src="../images/sad-covers.jpg">
-            </div>
-            <div class="track-name">
-              Sad Covers
-              <div class="track-author">
-                Acoustic covers of sad songs.
-              </div>
-            </div>
-          </div>
-
-          <div class="track">
-            <div>
-              <img class="track-image" src="../images/dark-indie.jpg">
-            </div>
-            <div class="track-name">
-              Deep Dark Indie
-              <div class="track-author">
-                Hauntinghly atmospheric, deeply melodic indie.
-              </div>
-            </div>
-          </div>
-
-          <div class="track">
-            <div>
-              <img class="track-image" src="../images/DarknStormy.jpg">
-            </div>
-            <div class="track-name">
-              Dark & Stormy
-              <div class="track-author">
-                Beatifully dark, dramatic tracks.
-              </div>
-            </div>
-          </div>
-        </section>
+        <section class="tracks" id ="sadge"></section>
       </div>
     </main>
 
