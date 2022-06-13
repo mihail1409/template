@@ -5,7 +5,7 @@ body{
     font-family: "Helvetica Neue","helvetica","arial","Hiragino Kaku Gothic Pro","Meiryo","MS Gothic",sans-serif;
 }
 
-.root{
+.App{
     display: grid;
     grid-template-areas:
     "left-area content-area content-area"
@@ -27,22 +27,22 @@ body{
 }
 
 .home{   
-    background-image: url(../images/home-img.png);
+    background-image: url(../public/images/home-img.png);
 }
 
 .search{
-    background-image: url(../images/search-img.png);
+    background-image: url(../public/images/search-img.png);
 }
 
 .mediateka{
-    background-image: url(../images/mediateka-img.png);
+    background-image: url(../public/images/mediateka-img.png);
 }
 
 .create{
-    background-image: url(../images/create-playlist.png);
+    background-image: url(../public/images/create-playlist.png);
 }
 .lovely{
-    background-image: url(../images/lovely-tracks.png);
+    background-image: url(../public/images/lovely-tracks.png);
 }
 
 .logo-image{
@@ -60,11 +60,11 @@ body{
 }
 
 .back{
-    background: url(../images/arrow-back2.png);
+    background: url(../public/images/arrow-back2.png);
 }
 
 .forward{
-    background: url(../images/arrow-forward2.png);
+    background: url(../public/images/arrow-forward2.png);
 }
 
 .arrow{
@@ -78,7 +78,7 @@ body{
     cursor: pointer;
 }
 
-.header{
+.header {
     grid-area: content-area;
     height: 64px;
     min-width: 0;
