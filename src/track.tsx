@@ -1,6 +1,9 @@
-import React from 'react';
-
-export default function track (props: { image: string; name: string; desc: string }) {
+export type TrackProps = {
+  image: string;
+  name: string;
+  desc: string;
+}
+export default function track (props: TrackProps) {
     return (
         <div className="track">
         <div>

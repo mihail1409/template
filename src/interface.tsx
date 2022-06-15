@@ -3,25 +3,23 @@ interface IImage {
     url: string;
     name: string;
   }
+export interface IItem {
+  id: string;
+  name: string;
+  }
   
-export interface IContent {
-    id: string;
-    name: string;
+export interface IContent extends IItem {
     description?: string;
     images: IImage[];
     artists: IImage[];
   }
   
-export  interface ITrack{
-    id: string;
-    name: string;
+export  interface ITrack extends IItem {
     album: IContent;
     description?: string;
     artists: IImage[];
   }
-  export  interface IArtist{
-    id: string;
-    name: string;
+  export  interface IArtist extends IItem{
     images: IImage[];
     type: string
   }
